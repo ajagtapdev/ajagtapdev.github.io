@@ -5,11 +5,16 @@
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aarush Jagtap | Portfolio</title>
-    <script type="module" crossorigin src="./assets/index-SdmoogQV.js"></script>
-    <link rel="modulepreload" crossorigin href="./assets/react-vendor-p-ePC3O0.js">
-    <link rel="modulepreload" crossorigin href="./assets/three-vendor-DSejdA-R.js">
-    <link rel="modulepreload" crossorigin href="./assets/three-extras-9mZD0mtV.js">
-    <link rel="stylesheet" crossorigin href="./assets/index-ONXkEui2.css">
+    
+    <!-- Preload critical 3D assets for faster loading -->
+    <link rel="preload" href="./assets/moon2-6NWIglaH.glb" as="fetch" crossorigin="anonymous" />
+    <link rel="preload" href="./draco/draco_wasm_wrapper.js" as="script" />
+    <link rel="preload" href="./draco/draco_decoder.wasm" as="fetch" crossorigin="anonymous" />
+    <script type="module" crossorigin src="./assets/index-D-rAlxGM.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/react-vendor-qE8GLNOf.js">
+    <link rel="modulepreload" crossorigin href="./assets/three-vendor-2NNpZ606.js">
+    <link rel="modulepreload" crossorigin href="./assets/three-extras-Nhx58tv-.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-8y0HG1ap.css">
   </head>
   <body className = "bg-black">
     <div id="root"></div>
