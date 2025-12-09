@@ -1,0 +1,7 @@
+# Allow all crawlers and point to canonical sitemap
+User-agent: *
+Allow: /
+
+Sitemap: https://ajagtap.com/sitemap.xml
+Host: ajagtap.com
+
